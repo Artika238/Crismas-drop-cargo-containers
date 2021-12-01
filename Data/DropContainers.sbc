@@ -5,77 +5,13 @@
     <DropContainer>
       <Id>
         <TypeId>DropContainerDefinition</TypeId>
-        <SubtypeId>DropCargoC-1</SubtypeId>
+        <SubtypeId>CargoPRZnS-1</SubtypeId>
       </Id>
-      <Prefab>Container_MK-1</Prefab>
-      <Priority>1</Priority>
+      <Prefab>CargoPRZn</Prefab>
+      <Priority>2</Priority>
       <SpawnRules>
         <CanSpawnInSpace>true</CanSpawnInSpace>
         <CanSpawnInAtmosphere>true</CanSpawnInAtmosphere>
-        <CanSpawnOnMoon>true</CanSpawnOnMoon>
-        <CanBePersonal>true</CanBePersonal>
-        <CanBeCompetetive>false</CanBeCompetetive>
-      </SpawnRules>
-    </DropContainer>
-
-    <DropContainer>
-      <Id>
-        <TypeId>DropContainerDefinition</TypeId>
-        <SubtypeId>Container_MK-2</SubtypeId>
-      </Id>
-      <Prefab>Container_MK-2</Prefab>
-      <Priority>1</Priority>
-      <SpawnRules>
-        <CanSpawnInSpace>true</CanSpawnInSpace>
-        <CanSpawnInAtmosphere>true</CanSpawnInAtmosphere>
-        <CanSpawnOnMoon>true</CanSpawnOnMoon>
-        <CanBePersonal>true</CanBePersonal>
-        <CanBeCompetetive>false</CanBeCompetetive>
-      </SpawnRules>
-    </DropContainer>
-
-    <DropContainer>
-      <Id>
-        <TypeId>DropContainerDefinition</TypeId>
-        <SubtypeId>Container_MK-3</SubtypeId>
-      </Id>
-      <Prefab>Container_MK-3</Prefab>
-      <Priority>1</Priority>
-      <SpawnRules>
-        <CanSpawnInSpace>true</CanSpawnInSpace>
-        <CanSpawnInAtmosphere>true</CanSpawnInAtmosphere>
-        <CanSpawnOnMoon>true</CanSpawnOnMoon>
-        <CanBePersonal>true</CanBePersonal>
-        <CanBeCompetetive>false</CanBeCompetetive>
-      </SpawnRules>
-    </DropContainer>
-
-    <DropContainer>
-      <Id>
-        <TypeId>DropContainerDefinition</TypeId>
-        <SubtypeId>Container_MK-4</SubtypeId>
-      </Id>
-      <Prefab>Container_MK-4</Prefab>
-      <Priority>1</Priority>
-      <SpawnRules>
-        <CanSpawnInSpace>true</CanSpawnInSpace>
-        <CanSpawnInAtmosphere>true</CanSpawnInAtmosphere>
-        <CanSpawnOnMoon>true</CanSpawnOnMoon>
-        <CanBePersonal>true</CanBePersonal>
-        <CanBeCompetetive>false</CanBeCompetetive>
-      </SpawnRules>
-    </DropContainer>
-
-    <DropContainer>
-      <Id>
-        <TypeId>DropContainerDefinition</TypeId>
-        <SubtypeId>Container_MK-5</SubtypeId>
-      </Id>
-      <Prefab>Container_MK-5</Prefab>
-      <Priority>1</Priority>
-      <SpawnRules>
-        <CanSpawnInSpace>true</CanSpawnInSpace>
-        <CanSpawnInAtmosphere>false</CanSpawnInAtmosphere>
         <CanSpawnOnMoon>false</CanSpawnOnMoon>
         <CanBePersonal>false</CanBePersonal>
         <CanBeCompetetive>true</CanBeCompetetive>
@@ -85,13 +21,29 @@
     <DropContainer>
       <Id>
         <TypeId>DropContainerDefinition</TypeId>
-        <SubtypeId>Container_MK-6</SubtypeId>
+        <SubtypeId>Drop Prize-2</SubtypeId>
       </Id>
-      <Prefab>Container_MK-6</Prefab>
+      <Prefab>Drop Prize</Prefab>
       <Priority>1</Priority>
       <SpawnRules>
         <CanSpawnInSpace>true</CanSpawnInSpace>
-        <CanSpawnInAtmosphere>false</CanSpawnInAtmosphere>
+        <CanSpawnInAtmosphere>true</CanSpawnInAtmosphere>
+        <CanSpawnOnMoon>false</CanSpawnOnMoon>
+        <CanBePersonal>true</CanBePersonal>
+        <CanBeCompetetive>false</CanBeCompetetive>
+      </SpawnRules>
+    </DropContainer>
+
+    <DropContainer>
+      <Id>
+        <TypeId>DropContainerDefinition</TypeId>
+        <SubtypeId>Drop Prize SP1-3</SubtypeId>
+      </Id>
+      <Prefab>Drop Prize SP1</Prefab>
+      <Priority>2</Priority>
+      <SpawnRules>
+        <CanSpawnInSpace>true</CanSpawnInSpace>
+        <CanSpawnInAtmosphere>true</CanSpawnInAtmosphere>
         <CanSpawnOnMoon>false</CanSpawnOnMoon>
         <CanBePersonal>false</CanBePersonal>
         <CanBeCompetetive>true</CanBeCompetetive>
@@ -101,14 +53,46 @@
     <DropContainer>
       <Id>
         <TypeId>DropContainerDefinition</TypeId>
-        <SubtypeId>Container_MK-7</SubtypeId>
+        <SubtypeId>Drop Prize T1-4</SubtypeId>
       </Id>
-      <Prefab>Container_MK-7</Prefab>
+      <Prefab>Drop Prize T1</Prefab>
       <Priority>1</Priority>
       <SpawnRules>
-        <CanSpawnInSpace>false</CanSpawnInSpace>
+        <CanSpawnInSpace>true</CanSpawnInSpace>
         <CanSpawnInAtmosphere>true</CanSpawnInAtmosphere>
-        <CanSpawnOnMoon>true</CanSpawnOnMoon>
+        <CanSpawnOnMoon>false</CanSpawnOnMoon>
+        <CanBePersonal>true</CanBePersonal>
+        <CanBeCompetetive>false</CanBeCompetetive>
+      </SpawnRules>
+    </DropContainer>
+
+    <DropContainer>
+      <Id>
+        <TypeId>DropContainerDefinition</TypeId>
+        <SubtypeId>Drop Prize T2-5</SubtypeId>
+      </Id>
+      <Prefab>Drop Prize T2</Prefab>
+      <Priority>1</Priority>
+      <SpawnRules>
+        <CanSpawnInSpace>true</CanSpawnInSpace>
+        <CanSpawnInAtmosphere>false</CanSpawnInAtmosphere>
+        <CanSpawnOnMoon>false</CanSpawnOnMoon>
+        <CanBePersonal>true</CanBePersonal>
+        <CanBeCompetetive>false</CanBeCompetetive>
+      </SpawnRules>
+    </DropContainer>
+
+    <DropContainer>
+      <Id>
+        <TypeId>DropContainerDefinition</TypeId>
+        <SubtypeId>Drop Prize T3-6</SubtypeId>
+      </Id>
+      <Prefab>Drop Prize T3</Prefab>
+      <Priority>1</Priority>
+      <SpawnRules>
+        <CanSpawnInSpace>true</CanSpawnInSpace>
+        <CanSpawnInAtmosphere>true</CanSpawnInAtmosphere>
+        <CanSpawnOnMoon>false</CanSpawnOnMoon>
         <CanBePersonal>false</CanBePersonal>
         <CanBeCompetetive>true</CanBeCompetetive>
       </SpawnRules>
@@ -117,194 +101,18 @@
     <DropContainer>
       <Id>
         <TypeId>DropContainerDefinition</TypeId>
-        <SubtypeId>Container_MK-8</SubtypeId>
+        <SubtypeId>Drop Prize T4-7</SubtypeId>
       </Id>
-      <Prefab>Container_MK-8</Prefab>
-      <Priority>0.5</Priority>
-      <SpawnRules>
-        <CanSpawnInSpace>false</CanSpawnInSpace>
-        <CanSpawnInAtmosphere>true</CanSpawnInAtmosphere>
-        <CanSpawnOnMoon>true</CanSpawnOnMoon>
-        <CanBePersonal>true</CanBePersonal>
-        <CanBeCompetetive>true</CanBeCompetetive>
-      </SpawnRules>
-    </DropContainer>
-
-    <DropContainer>
-      <Id>
-        <TypeId>DropContainerDefinition</TypeId>
-        <SubtypeId>Container_MK-9</SubtypeId>
-      </Id>
-      <Prefab>Container_MK-9</Prefab>
+      <Prefab>Drop Prize T4</Prefab>
       <Priority>1</Priority>
       <SpawnRules>
         <CanSpawnInSpace>true</CanSpawnInSpace>
-        <CanSpawnInAtmosphere>true</CanSpawnInAtmosphere>
-        <CanSpawnOnMoon>true</CanSpawnOnMoon>
-        <CanBePersonal>true</CanBePersonal>
-        <CanBeCompetetive>false</CanBeCompetetive>
-      </SpawnRules>
-    </DropContainer>
-
-    <DropContainer>
-      <Id>
-        <TypeId>DropContainerDefinition</TypeId>
-        <SubtypeId>Container_MK-10</SubtypeId>
-      </Id>
-      <Prefab>Container_MK-10</Prefab>
-      <Priority>1</Priority>
-      <SpawnRules>
-        <CanSpawnInSpace>true</CanSpawnInSpace>
-        <CanSpawnInAtmosphere>false</CanSpawnInAtmosphere>
-        <CanSpawnOnMoon>false</CanSpawnOnMoon>
-        <CanBePersonal>true</CanBePersonal>
-        <CanBeCompetetive>true</CanBeCompetetive>
-      </SpawnRules>
-    </DropContainer>
-
-    <DropContainer>
-      <Id>
-        <TypeId>DropContainerDefinition</TypeId>
-        <SubtypeId>Container_MK-11</SubtypeId>
-      </Id>
-      <Prefab>Container_MK-11</Prefab>
-      <Priority>1</Priority>
-      <SpawnRules>
-        <CanSpawnInSpace>true</CanSpawnInSpace>
-        <CanSpawnInAtmosphere>true</CanSpawnInAtmosphere>
-        <CanSpawnOnMoon>true</CanSpawnOnMoon>
-        <CanBePersonal>true</CanBePersonal>
-        <CanBeCompetetive>false</CanBeCompetetive>
-      </SpawnRules>
-    </DropContainer>    
-
-    <DropContainer>
-      <Id>
-        <TypeId>DropContainerDefinition</TypeId>    <!--small blue lander-->
-        <SubtypeId>Container_MK-12</SubtypeId>
-      </Id>
-      <Prefab>Container_MK-12</Prefab>
-      <Priority>1</Priority>
-      <SpawnRules>
-        <CanSpawnInSpace>true</CanSpawnInSpace>
-        <CanSpawnInAtmosphere>true</CanSpawnInAtmosphere>
-        <CanSpawnOnMoon>true</CanSpawnOnMoon>
-        <CanBePersonal>true</CanBePersonal>
-        <CanBeCompetetive>true</CanBeCompetetive>
-      </SpawnRules>
-    </DropContainer>
-    
-    <DropContainer>
-      <Id>
-        <TypeId>DropContainerDefinition</TypeId>
-        <SubtypeId>Container_MK-13</SubtypeId>
-      </Id>
-      <Prefab>Container_MK-13</Prefab>
-      <Priority>1</Priority>
-      <SpawnRules>
-        <CanSpawnInSpace>true</CanSpawnInSpace>
-        <CanSpawnInAtmosphere>true</CanSpawnInAtmosphere>
-        <CanSpawnOnMoon>true</CanSpawnOnMoon>
-        <CanBePersonal>true</CanBePersonal>
-        <CanBeCompetetive>false</CanBeCompetetive>
-      </SpawnRules>
-    </DropContainer>
-
-    <DropContainer>
-      <Id>
-        <TypeId>DropContainerDefinition</TypeId>
-        <SubtypeId>Container_MK-14</SubtypeId>
-      </Id>
-      <Prefab>Container_MK-14</Prefab>
-      <Priority>0.5</Priority>
-      <SpawnRules>
-        <CanSpawnInSpace>false</CanSpawnInSpace>
-        <CanSpawnInAtmosphere>false</CanSpawnInAtmosphere>
-        <CanSpawnOnMoon>true</CanSpawnOnMoon>
-        <CanBePersonal>true</CanBePersonal>
-        <CanBeCompetetive>true</CanBeCompetetive>
-      </SpawnRules>
-    </DropContainer>
-
-    <DropContainer>
-      <Id>
-        <TypeId>DropContainerDefinition</TypeId>
-        <SubtypeId>Container_MK-15</SubtypeId>
-      </Id>
-      <Prefab>Container_MK-15</Prefab>
-      <Priority>1</Priority>
-      <SpawnRules>
-        <CanSpawnInSpace>true</CanSpawnInSpace>
-        <CanSpawnInAtmosphere>false</CanSpawnInAtmosphere>
-        <CanSpawnOnMoon>true</CanSpawnOnMoon>
-        <CanBePersonal>true</CanBePersonal>
-        <CanBeCompetetive>false</CanBeCompetetive>
-      </SpawnRules>
-    </DropContainer>
-
-    <DropContainer>
-      <Id>
-        <TypeId>DropContainerDefinition</TypeId>
-        <SubtypeId>Container_MK-16</SubtypeId>
-      </Id>
-      <Prefab>Container_MK-16</Prefab>
-      <Priority>1</Priority>
-      <SpawnRules>
-        <CanSpawnInSpace>true</CanSpawnInSpace>
-        <CanSpawnInAtmosphere>true</CanSpawnInAtmosphere>
-        <CanSpawnOnMoon>true</CanSpawnOnMoon>
-        <CanBePersonal>true</CanBePersonal>
-        <CanBeCompetetive>false</CanBeCompetetive>
-      </SpawnRules>
-    </DropContainer>
-
-    <DropContainer>
-      <Id>
-        <TypeId>DropContainerDefinition</TypeId>
-        <SubtypeId>Container_MK-17</SubtypeId>
-      </Id>
-      <Prefab>Container_MK-17</Prefab>
-      <Priority>1</Priority>
-      <SpawnRules>
-        <CanSpawnInSpace>false</CanSpawnInSpace>
         <CanSpawnInAtmosphere>true</CanSpawnInAtmosphere>
         <CanSpawnOnMoon>false</CanSpawnOnMoon>
-        <CanBePersonal>true</CanBePersonal>
+        <CanBePersonal>false</CanBePersonal>
         <CanBeCompetetive>true</CanBeCompetetive>
       </SpawnRules>
     </DropContainer>
-
-    <DropContainer>
-      <Id>
-        <TypeId>DropContainerDefinition</TypeId>
-        <SubtypeId>Container_MK-18</SubtypeId>
-      </Id>
-      <Prefab>Container_MK-18</Prefab>
-      <Priority>1</Priority>
-      <SpawnRules>
-        <CanSpawnInSpace>true</CanSpawnInSpace>
-        <CanSpawnInAtmosphere>true</CanSpawnInAtmosphere>
-        <CanSpawnOnMoon>true</CanSpawnOnMoon>
-        <CanBePersonal>true</CanBePersonal>
-        <CanBeCompetetive>false</CanBeCompetetive>
-      </SpawnRules>
-    </DropContainer>
-
-    <DropContainer>
-      <Id>
-        <TypeId>DropContainerDefinition</TypeId>
-        <SubtypeId>Container_MK-19</SubtypeId>
-      </Id>
-      <Prefab>Container_MK-19</Prefab>
-      <Priority>1</Priority>
-      <SpawnRules>
-        <CanSpawnInSpace>true</CanSpawnInSpace>
-        <CanSpawnInAtmosphere>false</CanSpawnInAtmosphere>
-        <CanSpawnOnMoon>false</CanSpawnOnMoon>
-        <CanBePersonal>true</CanBePersonal>
-        <CanBeCompetetive>true</CanBeCompetetive>
-      </SpawnRules>
-    </DropContainer>    
 
   </DropContainers>
 </Definitions>
